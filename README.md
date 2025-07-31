@@ -4,12 +4,13 @@ A React application that lets users switch between three distinct themes — Min
 
 //Getting Started
 
-1. Clone the Repository git clone https://github.com/bandanagaur/multi-theme-switcher.git
+1. Clone the Repository
+   git clone https://github.com/bandanagaur/multi-theme-switcher.git
 
-2. cd multi-theme-switcher
+3. cd multi-theme-switcher
 
-3. Install Dependencies 
+4. Install Dependencies 
    npm install
 
-4. Start Development Server 
+5. Start Development Server 
    npm run dev
