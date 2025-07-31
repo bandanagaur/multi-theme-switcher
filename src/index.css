@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .theme1 {
+    --bg: #ffffff;
+    --text: #111827;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  .theme2 {
+    --bg: #1f2937;
+    --text: #f9fafb;
+    font-family: 'Georgia', serif;
+  }
+  .theme3 {
+    --bg: #ffe4e6;
+    --text: #1e1e1e;
+    font-family: 'Pacifico', cursive;
+  }
+
+  html {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: inherit;
+  }
+}
